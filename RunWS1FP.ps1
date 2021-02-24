@@ -37,4 +37,4 @@ if (!$autopilotdir) {
 }
 $SN = Get-WMIObject Win32_bios -ComputerName $env:computername -ea SilentlyContinue
 $SN = $SN.SerialNumber
-Invoke-Expression "& `"$current_path\Get-WindowsAutoPilotInfo.ps1`" -OutputFile D:\Autopilot\$SN.csv"#>
+Invoke-Expression "& `"$current_path\Get-WindowsAutoPilotInfo.ps1`" -OutputFile $current_path\Autopilot\$SN.csv"#>
