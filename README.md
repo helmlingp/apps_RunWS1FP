@@ -1,0 +1,1 @@
+This powershell script runs the WS1 DropShip Provisioning Tool with a PPKG and UNATTEND.XML and runs SYSPREP before quiting, if the files exist. The tool will also copy an AutoPilotConfigurationFile.json and place in the C:\Windows\Provisioning\Autopilot folder if it exists.
