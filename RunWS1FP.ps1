@@ -60,9 +60,7 @@ function Copy-TargetResource {
 $ws1fptool = "VMwareWS1ProvisioningTool.exe"
 $AUTOAPPLY = "C:\Recovery\AutoApply"
 $unattendfile = "unattend.xml"
-$localunattend = "$AUTOAPPLY\$file"
 $CustomPATH = "C:\Recovery\Customizations"
-$localppkgfile = "$CustomPATH\$ppkgfile"
 $AutoPilotPATH = "C:\Windows\Provisioning\Autopilot"
 $AutoPilotFile = "AutoPilotConfigurationFile.json"
 
